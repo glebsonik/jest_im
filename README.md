@@ -1,6 +1,6 @@
-#Jest integration test
+# Jest integration test
 This is the pilot integration test, based on `Jest` NodeJS test framework.
-##Prerequisites
+## Prerequisites
 To start running existing tests you have to do the following:
    * Install [NodeJS](https://nodejs.org/en/download/) on your computer
    * Create an account or sync existed GitHub account with [Vercel](https://vercel.com)
@@ -22,7 +22,7 @@ Currently, there are three working test examples that will do the following:
    
    To run all tests at once type `jest` from your content root. *Note:* If you run any specific case, Vercel deploy will be triggered anyway.
 ## Known issues
-###XPath issue 
+### XPath issue 
 As mentioned in jest-puppeteer-expect [documentation](https://github.com/smooth-code/jest-puppeteer/blob/master/packages/expect-puppeteer/README.md#type-string-value-string), 
 developer can use both css and xpath selectors by passing 
   a css object

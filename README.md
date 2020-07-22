@@ -35,7 +35,7 @@ developer can use both css and xpath selectors by passing
 ```
   to *expect* methods, but if you try to pass any object you will face an error
   `
-   Error: Element [object Object] not found
+   Error: Element [object Object] not found <br>
    Evaluation failed: DOMException: Failed to execute 'querySelectorAll' on 'Document': '[object Object]' is not a valid selector.
    `
    So for now there is only one way to get elements is to use css selectors, that, unfortunately, will be hard to use in react apps.

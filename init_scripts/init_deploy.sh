@@ -1,0 +1,1 @@
+vercel app_dir/my-test-app > ./deploy_log.txt
